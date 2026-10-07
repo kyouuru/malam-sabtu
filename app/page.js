@@ -8,7 +8,7 @@ import VideoCardLink from '@/app/VideoCardLink';
 
 export async function generateMetadata() {
   const db = await readDB();
-  const name = db.settings?.siteName || 'Drive Video';
+  const name = db.settings?.siteName || 'Malam Sabtu';
   return { title: name, robots: 'noindex, nofollow' };
 }
 
@@ -48,7 +48,7 @@ export default async function Home() {
         </div>
         <div className="drive-title-wrap">
           <div className="drive-label">Portal Video</div>
-          <h1 className="drive-title">{settings.siteName || 'Drive Video'}</h1>
+          <h1 className="drive-title">{settings.siteName || 'Malam Sabtu'}</h1>
         </div>
       </header>
 
@@ -108,7 +108,7 @@ export default async function Home() {
       <MobileAd slot="home-mobile" />
 
       <footer className="portal-footer">
-        <span className="admin-small">{settings.siteName || 'Drive Video'} — portal video & konten.</span>
+        <span className="admin-small">{settings.siteName || 'Malam Sabtu'} — portal video & konten.</span>
       </footer>
     </main>
   );

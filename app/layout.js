@@ -9,7 +9,7 @@ import AdDebugPanel from './AdDebugPanel';
 import StickyFooterAd from './StickyFooterAd';
 
 export const metadata = {
-  title: 'Drive Video',
+  title: 'Malam Sabtu',
   robots: 'noindex, nofollow'
 };
 
